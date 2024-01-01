@@ -6,7 +6,7 @@ public class Order_Agnostic {
         int answer = Order_Agnostic(arr, 16);
         System.out.println(answer);
     }  
-    // Order-Agnostic-Binary Search means that we don't  know in whic order are array is given 
+    // Order-Agnostic-Binary Search means that we don't  know in which  order are array is arranged 
     static int  Order_Agnostic(int [] arr , int target ){
         int start = 0 ;
         int end = arr.length-1;
