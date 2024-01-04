@@ -3,7 +3,7 @@ package LinkedList;
 class LL{
     private Node head ;
     private Node tail;
-    private class Node{
+    private class Node{   // declaring the node 
         private int value;
         private Node next;
 
