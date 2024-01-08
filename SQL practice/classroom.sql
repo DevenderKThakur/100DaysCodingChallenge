@@ -1,5 +1,7 @@
-create database xyz_company;
+-- create a database with a name 
+create database xyz_company; 
 
+-- this use tells to use database xyz
 use xyz_company;
 
 create table employe_information(
